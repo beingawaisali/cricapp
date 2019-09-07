@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/367a320177.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-matches-list.css">
+    <title>Cricket App</title>
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div id="logo">
+            <img src="images/logo.png" alt="logo" id="logo">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a href="#home" onclick="showHome()">Home</a>
+                </li>
+                <li>
+                    <a href="#" onclick="showScore()">Live Matches</a>
+                </li>
+                <li>
+                    <a href="#">Cricket News</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HOME -->
+    <section id="home">
+        <!-- SLIDER -->
+
+        <div id="slider">
+            <!-- <img src="images/AB-de-Villiers.png" id="abd"> -->
+        </div>
+
+        <!-- FIRST HEADING -->
+        <div id="first-heading">
+            <h2>YOU CAN CATCH LIVE MATCHES, CRICKET NEWS AND YOUR FAVOURITE CRICKETERS HERE!</h2>
+            <p>For more Cricket updates stay connected!</p>
+        </div>
+        <!-- SERVICES -->
+        <div id="services">
+            <div id="service-1" class="services">
+                <figure>
+                    <div id="live-match-icon" class="icon-style">
+                        <img src="images/live-matches.png">
+                    </div>
+                    <figcaption>
+                        <a href="#">Live Score</a>
+                    </figcaption>
+                </figure>
+                <div id="live-match-image" class="caption-image">
+                    <div>
+                        <img src="images/img-1.jpg">
+                    </div>
+                    <figcaption>
+                        Stay Connected and Enjoy the live Cricket on your fingertips!
+                    </figcaption>
+                </div>
+            </div>
+
+            <div id="service-2" class="services">
+                <figure>
+                    <div id="cricket-news-icon" class="icon-style">
+                        <img src="images/cricket-news.png">
+                    </div>
+                    <figcaption>
+                        <a href="#">Cricket News</a>
+                    </figcaption>
+                </figure>
+                <div id="cricket-news-image" class="caption-image">
+                    <div>
+                        <img src="images/img-2.jpg">
+                    </div>
+                    <figcaption>
+                        Press the bell icon and get latest updates and news on Cricket.
+                    </figcaption>
+                </div>
+            </div>
+
+            <div id="service-3" class="services">
+                <figure>
+                    <div id="fav-player-icon" class="icon-style">
+                        <img src="images/favourite-players.png">
+                    </div>
+                    <figcaption>
+                        <a href="#">Your Favurite Players</a>
+                    </figcaption>
+                </figure>
+                <div id="fav-player-image" class="caption-image">
+                    <div>
+                        <img src="images/img-3.jpg">
+                    </div>
+                    <figcaption>
+                        Get the information and bio of your favourite Players.
+                    </figcaption>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MATCHES LIST -->
+
+    <section id="matches-section">
+        <h2>Live Matches</h2>
+        <main class="matches-list">
+        </main>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div id="app">
+            <h3>Download our App on your phone</h3>
+            <div>
+                <img src="images/play-store.png" alt="">
+                <img src="images/app-store.png" alt="">
+            </div>
+        </div>
+        <div id="credits">
+            <div>Cricket API @
+                <a href="https://www.cricapi.com/" title="Flaticon" target="_blank">www.cricapi.com</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <div id="test"></div>
+    <p></p>
+    <span></span>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

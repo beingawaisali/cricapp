@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+        <head>
+                <title>JS Documentation Page</title>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+            <link rel="stylesheet" href="index.css">
+            </head>
+            <>
+            <div id="main-container">
+              <div id="navbar-container">
+                <nav id="navbar">
+              <header class="header-title">JS Documentation</header>
+                    <ul id="list-of-sections">
+                        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+                        <li><a class="nav-link" href="#Why_Python">Why Python</a></li>
+                        <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+                        <li><a class="nav-link" href="#Variables">Variables</a></li>
+                        <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+                        <li><a class="nav-link" href="#if...else_statements">if...else Statements</a></li>
+                        <li><a class="nav-link" href="#for_Loop">for Loop</a></li>
+                        <li><a class="nav-link" href="#Functions">Functions</a></li>
+                        <li><a class="nav-link" href="#References">References</a></li>
+                    </ul>
+                </nav>
+          </div>
+          <div id="main-doc-container">
+                <main id="main-doc">
+                    <!-- INTRODUCTION SECTION-->
+                    <section class="main-section" id="Introduction">
+                        <header class="header-title">Introduction</header>
+                        <p class="passages">
+                            Python is an interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales. In July 2018, Van Rossum stepped down as the leader in the language community after 30 years.
+                        </p>
+                        <p class="passages">
+                            Python features a dynamic type system and automatic memory management. It supports multiple programming paradigms, including object-oriented, imperative, functional and procedural, and has a large and comprehensive standard library.
+                        </p>
+                        <p class="passages">
+                            Python interpreters are available for many operating systems. CPython, the reference implementation of Python, is open source software and has a community-based development model, as do nearly all of Python's other implementations. Python and CPython are managed by the non-profit Python Software Foundation.
+                        </p>
+                    </section>
+                    <!--THE END OF INTRODUCTION SECTION -->
+        
+                    <!-- WHY PYTHON SECTION-->
+                    <section class="main-section" id="Why_Python">
+                        <header class="header-title">Why Python</header>
+                        <p class="passages">
+                            <ol>
+                                <li>It uses the elegant syntax; hence, the programs are easier to read.</li>
+                                <li>It is a simple to access language, which makes it easy to achieve the program working. This feature makes Pythons as the ideal programming language for prototype development as well as other ad-hoc programming functions. There is no need to compromise maintainability.</li>
+                                <li>The large standard library included in this language supports several programming tasks like searching text along with systematic expressions, linking to Web servers, modifying and reading files.</li>
+                                <li>It is also simple to extend the code by appending new modules that are implemented in other compiled language like C++ or C.</li>
+                                <li>An expressive language which is possible to embed into applications to offer a programmable interface.</li>
+                                <li>Allows developer to run the code anywhere, including Windows, Mac OS X, UNIX, and Linux.</li>
+                                <li>It is free software in a couple of categories. It does not cost anything to use or download Pythons or to add it in the application. It can also be redistributable and modifiable without any cost; since, the coding language is copyrighted and it is available under the open source license.</li>
+                        </ol>
+                        </p>
+                    </section>
+                <!-- END OF WHY PYTHON SECTION -->
+        
+                <!--HELLO WORLD-->
+                <section class="main-section" id="Hello_World">
+                    <header class="header-title" >Hello World</header>
+                    <p class="passages">
+                <!--CODE PART GOES HERE-->
+                        <pre><code>
+          # This program prints Hello, world!
+          print('Hello, world!')
+                        </code></pre>
+                    </p>
+                </section>
+                <!--END OF HELLO WORLD SECTION-->
+        
+            <!--VARIABLE SECTION -->
+                <section class="main-section" id="Variables">
+                    <header  class="header-title">Variables</header>
+                    <p class="passages">
+                        Unlike other programming languages, Python has no command for declaring a variable.<br>
+                A variable is created the moment you first assign a value to it.<br>
+                        <span class="subtitle">Example:</span><br>
+                <!--CODE PART GOES HERE-->
+                        <pre><code>
+          x = 5
+          y = "John"
+          print(x)
+          print(y)
+                        </code></pre><br>
+                        Variables do not need to be declared with any particular type and can even change type after they have been set.<br>
+                <!--CODE PART GOES HERE-->
+                        <pre><code>
+          x = 4 # x is of type int
+          x = "Sally" # x is now of type str
+          print(x)
+                        </code></pre>
+                    </p>
+                    <p class="passages">
+                        A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
+                        <ol>
+                            <li>A variable name must start with a letter or the underscore character</li>
+                            <li>A variable name cannot start with a number</li>
+                            <li>A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )</li>
+                            <li>Variable names are case-sensitive (age, Age and AGE are three different variables)</li>
+                    </ol>
+                            </p>
+                </section>
+            <!-- END OF VARIABLES SECTION -->
+        
+                <!-- DATA TYPES SECTION-->
+            <section class="main-section" id="Data_Types" >
+                <header class="header-title">Data Types</header>
+                <p class="passages">Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.<br><br>There are various data types in Python. Some of the important types are listed below.
+                </p>
+                <p class="passages">
+                    <span class="subtitle">Python Numbers</span><br>
+                    Integers, floating point numbers and complex numbers falls under Python numbers category. They are defined as <code>int</code>, <code>float</code> and <code>complex</code> class in Python.<br>
+                    We can use the <code> type()</code> function to know which class a variable or a value belongs to and the <code> isinstance()</code> function to check if an object belongs to a particular class.
+                </p>
+                <p class="passages">
+              <!--CODE PART GOES HERE-->
+                    <pre><code>
+            a = 5
+            print(a, "is of type", type(a))
+            a = 2.0
+            print(a, "is of type", type(a))
+            a = 1+2j
+            print(a, "is complex number?", isinstance(1+2j,complex))
+                    </code></pre>
+                </p>
+                <p class="passages">
+                    <span class="subtitle">Python List</span><br>
+                    Declaring a list is pretty straight forward. Items separated by commas are enclosed within brackets [ ].<br>
+            <pre><code>>>> a = [1, 2.2, 'python']</pre></code><br>
+                    We can use the slicing operator [ ] to extract an item or a range of items from a list. Index starts form 0 in Python.<br>
+              <!--CODE PART GOES HERE-->
+        
+                    <pre><code>
+            a = [5,10,15,20,25,30,35,40]
+            # a[2] = 15
+            print("a[2] = ", a[2])
+            # a[0:3] = [5, 10, 15]
+            print("a[0:3] = ", a[0:3])
+            # a[5:] = [30, 35, 40]
+            print("a[5:] = ", a[5:])
+                    </code></pre>
+                    Lists are mutable, meaning, value of elements of a list can be altered.<br>
+              <!--CODE PART GOES HERE-->
+                    <pre><code>
+            >>> a = [1,2,3]
+            >>> a[2]=4
+            >>> a
+            [1, 2, 4]
+                    </code></pre>
+                </p>
+                <p class="passages">
+                    <span class="subtitle">Python Set</span><br>
+                    Set is an unordered collection of unique items. Set is defined by values separated by comma inside braces { }. Items in a set are not ordered.<br>
+              <!--CODE PART GOES HERE-->
+                    <pre><code>
+            a = {5,2,3,1,4}
+            # printing set variable
+            print("a = ", a)
+            # data type of variable a
+            print(type(a))
+                    </code></pre>
+                    We can perform set operations like union, intersection on two sets. Set have unique values. They eliminate duplicates.<br>
+        
+              <!--CODE PART GOES HERE-->
+                    <pre><code>
+            >>> a = {1,2,2,3,3,3}
+            >>> a
+            {1, 2, 3}
+                    </code></pre><br>
+                    Since, set are unordered collection, indexing has no meaning. Hence the slicing operator [] does not work.<br>
+        
+              <!--CODE PART GOES HERE-->
+        
+                    <pre><code>
+            >>> a = {1,2,3}
+            >>> a[1]
+            Traceback (most recent call last):
+                File "<string>", line 301, in runcode
+                File "<interactive input>", line 1, in <module>
+            TypeError: 'set' object does not support indexing
+                    </code></pre>
+                        <p class="passages">
+                            <span class="subtitle">Python Dictionary</span><br>
+                            Dictionary is an unordered collection of key-value pairs.<br>It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.<br>In Python, dictionaries are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type.<br>
+        
+                  <!--CODE PART GOES HERE-->
+        
+                            <pre><code>
+            >>> d = {1:'value','key':2}
+            >>> type(d)
+            <class 'dict'>
+                            </code></pre>
+                        </p>
+                </p>
+            </section>
+                        <!-- END OF DATA TYPES SECTION -->
+        
+                        <!--IF ELSE SECTION-->
+                        <section class="main-section" id="if...else_statements">
+                            <header  class="header-title">if...else statements</header>
+                            <p class="passages">
+                                <!-- if statement -->
+                                Decision making is required when we want to execute a code only if a certain condition is satisfied.<br>
+                    The if…elif…else statement is used in Python for decision making.<br>
+                                <span class="subtitle">if syntax</span><br>
+        
+                    <!--CODE PART GOES HERE-->
+        
+                                <pre><code>
+            if test expression:
+                    statement(s)
+                                </code></pre><br>
+                                <span class="subtitle">Example</span><br>
+        
+                    <!--CODE PART GOES HERE-->
+        
+                                <pre><code>
+            # If the number is positive, we print an appropriate message
+                num = 3
+                if num > 0:
+                    print(num, "is a positive number.")
+                print("This is always printed.")
+        
+                num = -1
+                if num > 0:
+                    print(num, "is a positive number.")
+                print("This is also always printed.")
+                                </code></pre><br>
+                            </p>
+                            <p class="passages">
+                                <!-- if-else statements -->
+                                <span class="subtitle">if-else syntax</span><br>
+                    <!--CODE PART GOES HERE-->
+        
+                                <pre><code>
+            if test expression:
+                Body of if
+            else:
+                Body of else
+                                </code></pre>
+                                <br>
+                                The if..else statement evaluates test expression and will execute body of if only when test condition is True. If the condition is False, body of else is executed. Indentation is used to separate the blocks.<br>
+                                <span class="subtitle">Example</span><br>
+                    <!--CODE PART GOES HERE-->
+        
+                                <pre><code>
+            # Program checks if the number is positive or negative
+            # And displays an appropriate message
+        
+            num = 3
+        
+            # Try these two variations as well.
+            # num = -5
+            # num = 0
+        
+            if num >= 0:
+                print("Positive or Zero")
+            else:
+                print("Negative number")
+                                </code></pre>
+                            </p>
+                        </section>
+                  <!-- END OF IF ELSE STATEMENT-->
+        
+                        <section class="main-section" id="for_Loop">
+                            <header class="header-title" >for Loop</header><br>
+                            <p class="passages">
+                                The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. Iterating over a sequence is called traversal.<br>
+                                <span class="subtitle">Syntax</span><br>
+                                <pre><code>
+            for val in sequence:
+                    Body of for
+                                </code></pre><br>
+                                Here, val is the variable that takes the value of the item inside the sequence on each iteration. <br> Loop continues until we reach the last item in the sequence. The body of for loop is separated from the rest of the code using indentation. <br>
+                    <!--CODE PART GOES HERE-->
+        
+                                <pre><code>
+            genre = ['pop', 'rock', 'jazz']
+        
+                # iterate over the list using index
+                for i in range(len(genre)):
+                    print("I like", genre[i])
+                                </code></pre>
+                            </p>
+        
+                        <!-- END OF FOR LOOP SECTION-->
+                        </section>
+        
+                    <!--FUNCTIONS SECTION-->
+                        <section class="main-section" id="Functions">
+                            <header class="header-title" >Functions</header><br>
+                            <p class="passages">
+                                In Python, function is a group of related statements that perform a specific task. <br> Functions help break our program into smaller and modular chunks. As our program grows larger and larger, functions make it more organized and manageable. <br>Furthermore, it avoids repetition and makes code reusable. <br>
+                                <span class="subtitle">Syntax for function</span><br>
+                    <!--CODE PART GOES HERE-->
+        
+                                <pre><code>
+            def function_name(parameters):
+                """docstring"""
+                statement(s)
+                                </code></pre><br>
+                            <span class="subtitle">Example</span><br>
+                  <!--CODE PART GOES HERE-->
+        
+                            <pre><code>
+            def greet(name):
+                """This function greets to
+                the person passed in as
+                parameter"""
+                print("Hello, " + name + ". Good morning!")
+                            </code></pre><br>
+                            </p>
+                        </section>
+                    <!-- END OF FUNCTION SECTION-->
+        
+                    <section class="main-section" id="References">
+                        <header class="header-title" >References</header><br>
+                        <p class="passages" id="resources">
+                            <a href="https://www.python.org/" target="_blank" title="Python Offical Website">Python Offical Website</a><br>
+                  <a href="https://docs.python.org/3/" title="Python documentation">Python Documentation</a><br>
+                  <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python Wikipedia" target="_blank">Python (Wikipedia)</a><br>
+                  <a href="https://wiki.python.org/moin/PythonBooks" tabindex="_blank" title="Python Books">Python Books</a><br>
+                  <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" title="Python videos" target="_blank">Python FreeCodeCamp</a><br>
+                        </p>
+            </section>
+                </main>
+            </div>
+          </div>
+          <div id="top"><a href="#navbar">TOP</a></div>
+    
+</body>
+</html>
