@@ -2,7 +2,7 @@
 
 
 
-https://awais-malik716.github.io/cricapp/
+https://beingawaisali.github.io/cricapp/
 
 
 
